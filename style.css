@@ -1,21 +1,4 @@
-.fork-me-link {
-	display: block;
-	position: absolute;
-	top: 0;
-	right: -95px;
-	outline: none;
-	-webkit-transition-property: right;
-	-webkit-transition-duration: 1s;
-	-moz-transition-property: right;
-	-moz-transition-duration: 1s;
-	-ms-transition-property: right;
-	-ms-transition-duration: 1s;
-	-o-transition-property: right;
-	-o-transition-duration: 1s;
-}
-.fork-me-link:hover{
-	right: 0;
-}
+
 body {
     font-family: sans-serif;
     background-color: pink;
@@ -39,4 +22,22 @@ border: solid 3px black;
 border-radius: 5px;
 padding: 10px;
 color: green;
+}
+.fork-me-link {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -95px;
+	outline: none;
+	-webkit-transition-property: right;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: right;
+	-moz-transition-duration: 1s;
+	-ms-transition-property: right;
+	-ms-transition-duration: 1s;
+	-o-transition-property: right;
+	-o-transition-duration: 1s;
+}
+.fork-me-link:hover{
+	right: 0;
 }
